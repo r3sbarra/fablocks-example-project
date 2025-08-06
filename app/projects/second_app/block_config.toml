@@ -1,0 +1,6 @@
+name = "second app"
+version = 1.0
+template_router = "router" # Default: router
+api_router = "api_router" # Default: api_router
+requirements = ["requests"]
+templates_dir = "templates"
