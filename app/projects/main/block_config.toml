@@ -1,5 +1,5 @@
-name = "Main Page"
-version = 1.0
+name = "main"
+version = "1.0"
 template_router = "router"  # Default: router
 api_router = "api_router"   # Default: api_router
 templates_dir = "templates"
