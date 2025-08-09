@@ -12,7 +12,7 @@ block_manager = BlockManager(blocks_folder=os.path.join(CURRENT_DIR, BLOCKS_FOLD
 block_manager.set_db_engine(engine)
 create_db()
 
-app = block_manager.init_app(app)
+block_manager.init_app(app)
 
 # Put expections here, or whereever.
 @app.exception_handler(HTTPException)
